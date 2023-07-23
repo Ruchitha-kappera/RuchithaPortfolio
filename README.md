@@ -1,4 +1,4 @@
-This repository contains the code for my personal portfolio website, showcasing my academic achievements, extracurricular activities, and creative projects. The website is built using HTML, CSS, and JavaScript, and it includes multiple pages with separate HTML files and a shared CSS file.
+This repository contains the code for my personal portfolio website, showcasing my academic achievements, extracurricular activities, and creative projects. The website is built using HTML, CSS and it includes multiple pages with separate HTML files and a shared CSS file.
 Table of Contents
 
     Description
