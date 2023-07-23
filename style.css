@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: auto; 
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav li a {
+    color: #fff;
+}
+article {
+    padding: 40px;
+    text-align: left; 
+    justify-content: center; 
+    width: auto;
+    height: auto;
+    background-color: #b4abcd;
+    margin-block: auto;
+}
+
+
+section {
+    padding: 2rem;
+    width: auto;
+    height: auto;
+    margin-block: auto;
+}
+
+.about{
+    height: 350px;
+}
+
+#about {
+    background-color: #f9f9f9;
+    height: 250px;
+    margin-block: auto;
+}
+
+#Achievements{
+    background-color: #f9f9f9;
+    margin-block: auto;
+}
+
+#projects{
+    background-color: #f9f9f9;
+    margin-block: auto;
+}
+
+#Education{
+    background-color: #f9f9f9;
+    margin-block: auto;
+}
+
+#Technical{
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-block: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
